@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+// This design model is for decoupling control logic and business 
 func MapStrToStr(slice []string, fn func(string) string) []string {
 	var newSlice []string = make([]string, 0)
 	for _, v := range slice {

@@ -7,6 +7,7 @@ import (
 
 // It is convenient that use the following design model to init struct
 // Server is necessary field and others is option field in example
+// However, i recommend the other design model to init struct that is function-option design model
 type Server struct {
 	Addr string
 	Port string
